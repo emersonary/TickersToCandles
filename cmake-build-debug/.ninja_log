@@ -1,0 +1,19 @@
+# ninja log v5
+4	570	7336998229648854	CMakeFiles/TickersToCandles.dir/main.cpp.obj	6c0674042137fd8
+100	1428	7336403669675587	CMakeFiles/TickersToCandles.dir/C_/Dev/c++/JobsC/Base/ucModelBase.cpp.obj	a88a3eaa453145dc
+1	199	7337020190603130	build.ninja	7cbd35ac0c507ffd
+17	979	7336999404544980	CMakeFiles/TickersToCandles.dir/ucModelAsset.cpp.obj	af497795477a426b
+13	206	7336231094071711	CMakeFiles/TickersToCandles.dir/ucModelSymbols.cpp.obj	8dcf47f857d7e257
+3	855	7336998500261895	CMakeFiles/TickersToCandles.dir/ucCtrlTickersToCandles.cpp.obj	1258801f0d2e9099
+17	1421	7336403669615090	CMakeFiles/TickersToCandles.dir/C_/Dev/c++/JobsC/Base/ucModelCad.cpp.obj	8c926e29a1de64b
+11	916	7336394319710280	CMakeFiles/TickersToCandles.dir/C_/Dev/c++/JobsC/Generic/uAux.cpp.obj	99aa8ab29051b49
+5	886	7336999403610928	CMakeFiles/TickersToCandles.dir/ucModelTicker.cpp.obj	7a3885a6c88922af
+11	1065	7336999405420608	CMakeFiles/TickersToCandles.dir/ucModelCandles.cpp.obj	75fbea67c9ff206a
+9	679	7336263355892404	TickersToCandles.exe	ea01c341916eec97
+1123	1411	7337000129568266	C:/TickersToCandles/TickersToCandles.exe	eeba8ec19811e3af
+433	539	7336434451590142	Generic/libBase.a	25e70778266a9ae1
+5	390	7336434450109621	Generic/CMakeFiles/Base.dir/ucModelCad.cpp.obj	183f0298faec1ef3
+11	433	7336434450529181	Generic/CMakeFiles/Base.dir/ucModelBase.cpp.obj	feaf0557236b5bad
+6	892	7336999730699608	CMakeFiles/TickersToCandles.dir/Generic/uAux.cpp.obj	3683df82374c1a70
+4	1058	7337000126109494	CMakeFiles/TickersToCandles.dir/Base/ucModelCad.cpp.obj	dedbb1af0f3f780b
+11	1123	7337000126748528	CMakeFiles/TickersToCandles.dir/Base/ucModelBase.cpp.obj	f4e2128b372c6d1e
