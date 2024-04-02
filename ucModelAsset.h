@@ -12,7 +12,6 @@
 #endif
 
 
- /* TODO -oEmerson -cBug Fix : Binary Search Control */
 
 class Asset : public ITId {
 private:

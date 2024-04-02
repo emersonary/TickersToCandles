@@ -56,6 +56,8 @@ IT* ITIdList::getnewIT() {
 
 } ;
 
+//todo create map for fast access to items
+
 // returns the index of a Name (position of the item within the list. first = 0).
 int ITIdList::IndexOfName( const string &pname ) {
 
