@@ -9,8 +9,8 @@
 #include <fstream>
 #include <iostream>
 
-#include "Base/ucModelCad.h"
-#include "Generic/uAux.h"
+#include "ucModelCad.h"
+#include <uAux.h>
 #include "ucModelTicker.h"
 
 using namespace std ;

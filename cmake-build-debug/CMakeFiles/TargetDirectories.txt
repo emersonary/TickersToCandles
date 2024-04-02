@@ -1,3 +1,9 @@
 C:/Dev/c++/JobsC/TickersToCandles/cmake-build-debug/CMakeFiles/TickersToCandles.dir
 C:/Dev/c++/JobsC/TickersToCandles/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Dev/c++/JobsC/TickersToCandles/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Dev/c++/JobsC/TickersToCandles/cmake-build-debug/Generic/CMakeFiles/Generic.dir
+C:/Dev/c++/JobsC/TickersToCandles/cmake-build-debug/Generic/CMakeFiles/edit_cache.dir
+C:/Dev/c++/JobsC/TickersToCandles/cmake-build-debug/Generic/CMakeFiles/rebuild_cache.dir
+C:/Dev/c++/JobsC/TickersToCandles/cmake-build-debug/Base/CMakeFiles/Base.dir
+C:/Dev/c++/JobsC/TickersToCandles/cmake-build-debug/Base/CMakeFiles/edit_cache.dir
+C:/Dev/c++/JobsC/TickersToCandles/cmake-build-debug/Base/CMakeFiles/rebuild_cache.dir

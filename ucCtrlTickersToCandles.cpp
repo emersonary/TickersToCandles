@@ -4,6 +4,7 @@
 #include <string>
 
 #include "ucCtrlTickersToCandles.h"
+#include "uAux.h"
 
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
@@ -169,7 +170,7 @@ void TickerToCandleCtrl::SaveCandlesToFile( const string &pname,
 
         CreateDirectory( loutputfolder ) ;
 
-        string filename = loutputfolder + symbol + "candles" + ( pcandlelist->getintervalMS() == 5000 ? "_5s" : "_1m"  ) + ".csv" ;
+        string filename = loutputfolder + symbol + "_candles" + ( pcandlelist->getintervalMS() == 5000 ? "_5s" : "_1m"  ) + ".csv" ;
 
         SaveToCSVFile( pcandlelist, symbol, filename ) ;
 

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Dev/c++/JobsC/TickersToCandles/Base
+# Install script for directory: C:/Dev/c++/JobsC/TickersToCandles/Generic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

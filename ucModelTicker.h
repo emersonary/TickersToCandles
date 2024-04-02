@@ -9,8 +9,8 @@
 #include <chrono>
 #include <ctime>
 
-#include "Base/ucModelBase.h"
-#include "Generic/uAux.h"
+#include "ucModelBase.h"
+#include "uAux.h"
 
 //---------------------------------------------------------------------------
 #endif

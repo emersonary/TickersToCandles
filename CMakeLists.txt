@@ -4,6 +4,13 @@ project(TickersToCandles)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_subdirectory( Generic )
+add_subdirectory( Base )
+
+include_directories( TickersToCandles
+                     Generic
+                     Base )
+
 add_executable( TickersToCandles
                main.cpp
         ucCtrlTickersToCandles.h
@@ -14,26 +21,9 @@ add_executable( TickersToCandles
         ucModelCandles.cpp
         ucModelTicker.h
         ucModelTicker.cpp
-        Generic/uAux.h
-        Generic/uAux.cpp
-        Base/ucModelBase.h
-        Base/ucModelBase.cpp
-        Base/ucModelCad.h
-        Base/ucModelCad.cpp)
-
-#[[
-add_subdirectory(
-        Base
-        Generic
 )
 
-include_directories( TickersToCandles
-        Base
-        Generic
-)
-
-target_link_libraries(TickersToCandles
-        Base
-        Generic )
-]]
+target_link_libraries( TickersToCandles
+                       Generic
+                       Base  )
 

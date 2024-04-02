@@ -15,7 +15,7 @@
 ########################
 
 //Value Computed by CMake
-Base_BINARY_DIR:STATIC=C:/Dev/c++/JobsC/TickersToCandles/cmake-build-debug/Generic
+Base_BINARY_DIR:STATIC=C:/Dev/c++/JobsC/TickersToCandles/cmake-build-debug/Base
 
 //Value Computed by CMake
 Base_IS_TOP_LEVEL:STATIC=OFF
@@ -128,7 +128,7 @@ CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/TickersToCandles
 CMAKE_LINKER:FILEPATH=C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/ld.exe
 
 //make program
-CMAKE_MAKE_PROGRAM:FILEPATH=C:/Program Files/JetBrains/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe
+CMAKE_MAKE_PROGRAM:FILEPATH=C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/ninja/win/x64/ninja.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -254,6 +254,15 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+Generic_BINARY_DIR:STATIC=C:/Dev/c++/JobsC/TickersToCandles/cmake-build-debug/Generic
+
+//Value Computed by CMake
+Generic_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Generic_SOURCE_DIR:STATIC=C:/Dev/c++/JobsC/TickersToCandles/Generic
+
+//Value Computed by CMake
 TickersToCandles_BINARY_DIR:STATIC=C:/Dev/c++/JobsC/TickersToCandles/cmake-build-debug
 
 //Value Computed by CMake
@@ -365,7 +374,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

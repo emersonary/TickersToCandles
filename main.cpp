@@ -7,6 +7,6 @@ int main() {
 
     tickerToCandle.ExecTickersToCandles() ;
 
-    std::cout << "Hello, World!" << std::endl;
+    std::cout << "Files created!" << std::endl;
     return 0;
 }

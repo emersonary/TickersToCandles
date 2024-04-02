@@ -4,9 +4,9 @@
 #define ucModelAssetH
 //---------------------------------------------------------------------------
 
-#include "Base/ucModelCad.h"
+#include "ucModelCad.h"
 #include "ucModelCandles.h"
-#include "Generic/uAux.h"
+#include "uAux.h"
 
 
 #endif

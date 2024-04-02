@@ -47,55 +47,42 @@ cmake_ninja_workdir = C$:/Dev/c++/JobsC/TickersToCandles/cmake-build-debug/
 #############################################
 # Order-only phony target for TickersToCandles
 
-build cmake_object_order_depends_target_TickersToCandles: phony || CMakeFiles/TickersToCandles.dir
+build cmake_object_order_depends_target_TickersToCandles: phony || cmake_object_order_depends_target_Base cmake_object_order_depends_target_Generic
 
 build CMakeFiles/TickersToCandles.dir/main.cpp.obj: CXX_COMPILER__TickersToCandles_unscanned_Debug C$:/Dev/c++/JobsC/TickersToCandles/main.cpp || cmake_object_order_depends_target_TickersToCandles
   DEP_FILE = CMakeFiles\TickersToCandles.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Dev/c++/JobsC/TickersToCandles/TickersToCandles -IC:/Dev/c++/JobsC/TickersToCandles/Generic -IC:/Dev/c++/JobsC/TickersToCandles/Base
   OBJECT_DIR = CMakeFiles\TickersToCandles.dir
   OBJECT_FILE_DIR = CMakeFiles\TickersToCandles.dir
 
 build CMakeFiles/TickersToCandles.dir/ucCtrlTickersToCandles.cpp.obj: CXX_COMPILER__TickersToCandles_unscanned_Debug C$:/Dev/c++/JobsC/TickersToCandles/ucCtrlTickersToCandles.cpp || cmake_object_order_depends_target_TickersToCandles
   DEP_FILE = CMakeFiles\TickersToCandles.dir\ucCtrlTickersToCandles.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Dev/c++/JobsC/TickersToCandles/TickersToCandles -IC:/Dev/c++/JobsC/TickersToCandles/Generic -IC:/Dev/c++/JobsC/TickersToCandles/Base
   OBJECT_DIR = CMakeFiles\TickersToCandles.dir
   OBJECT_FILE_DIR = CMakeFiles\TickersToCandles.dir
 
 build CMakeFiles/TickersToCandles.dir/ucModelAsset.cpp.obj: CXX_COMPILER__TickersToCandles_unscanned_Debug C$:/Dev/c++/JobsC/TickersToCandles/ucModelAsset.cpp || cmake_object_order_depends_target_TickersToCandles
   DEP_FILE = CMakeFiles\TickersToCandles.dir\ucModelAsset.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Dev/c++/JobsC/TickersToCandles/TickersToCandles -IC:/Dev/c++/JobsC/TickersToCandles/Generic -IC:/Dev/c++/JobsC/TickersToCandles/Base
   OBJECT_DIR = CMakeFiles\TickersToCandles.dir
   OBJECT_FILE_DIR = CMakeFiles\TickersToCandles.dir
 
 build CMakeFiles/TickersToCandles.dir/ucModelCandles.cpp.obj: CXX_COMPILER__TickersToCandles_unscanned_Debug C$:/Dev/c++/JobsC/TickersToCandles/ucModelCandles.cpp || cmake_object_order_depends_target_TickersToCandles
   DEP_FILE = CMakeFiles\TickersToCandles.dir\ucModelCandles.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Dev/c++/JobsC/TickersToCandles/TickersToCandles -IC:/Dev/c++/JobsC/TickersToCandles/Generic -IC:/Dev/c++/JobsC/TickersToCandles/Base
   OBJECT_DIR = CMakeFiles\TickersToCandles.dir
   OBJECT_FILE_DIR = CMakeFiles\TickersToCandles.dir
 
 build CMakeFiles/TickersToCandles.dir/ucModelTicker.cpp.obj: CXX_COMPILER__TickersToCandles_unscanned_Debug C$:/Dev/c++/JobsC/TickersToCandles/ucModelTicker.cpp || cmake_object_order_depends_target_TickersToCandles
   DEP_FILE = CMakeFiles\TickersToCandles.dir\ucModelTicker.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Dev/c++/JobsC/TickersToCandles/TickersToCandles -IC:/Dev/c++/JobsC/TickersToCandles/Generic -IC:/Dev/c++/JobsC/TickersToCandles/Base
   OBJECT_DIR = CMakeFiles\TickersToCandles.dir
   OBJECT_FILE_DIR = CMakeFiles\TickersToCandles.dir
-
-build CMakeFiles/TickersToCandles.dir/Generic/uAux.cpp.obj: CXX_COMPILER__TickersToCandles_unscanned_Debug C$:/Dev/c++/JobsC/TickersToCandles/Generic/uAux.cpp || cmake_object_order_depends_target_TickersToCandles
-  DEP_FILE = CMakeFiles\TickersToCandles.dir\Generic\uAux.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\TickersToCandles.dir
-  OBJECT_FILE_DIR = CMakeFiles\TickersToCandles.dir\Generic
-
-build CMakeFiles/TickersToCandles.dir/Base/ucModelBase.cpp.obj: CXX_COMPILER__TickersToCandles_unscanned_Debug C$:/Dev/c++/JobsC/TickersToCandles/Base/ucModelBase.cpp || cmake_object_order_depends_target_TickersToCandles
-  DEP_FILE = CMakeFiles\TickersToCandles.dir\Base\ucModelBase.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\TickersToCandles.dir
-  OBJECT_FILE_DIR = CMakeFiles\TickersToCandles.dir\Base
-
-build CMakeFiles/TickersToCandles.dir/Base/ucModelCad.cpp.obj: CXX_COMPILER__TickersToCandles_unscanned_Debug C$:/Dev/c++/JobsC/TickersToCandles/Base/ucModelCad.cpp || cmake_object_order_depends_target_TickersToCandles
-  DEP_FILE = CMakeFiles\TickersToCandles.dir\Base\ucModelCad.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\TickersToCandles.dir
-  OBJECT_FILE_DIR = CMakeFiles\TickersToCandles.dir\Base
 
 
 # =============================================================================
@@ -105,9 +92,9 @@ build CMakeFiles/TickersToCandles.dir/Base/ucModelCad.cpp.obj: CXX_COMPILER__Tic
 #############################################
 # Link the executable C:\TickersToCandles\TickersToCandles.exe
 
-build C$:/TickersToCandles/TickersToCandles.exe: CXX_EXECUTABLE_LINKER__TickersToCandles_Debug CMakeFiles/TickersToCandles.dir/main.cpp.obj CMakeFiles/TickersToCandles.dir/ucCtrlTickersToCandles.cpp.obj CMakeFiles/TickersToCandles.dir/ucModelAsset.cpp.obj CMakeFiles/TickersToCandles.dir/ucModelCandles.cpp.obj CMakeFiles/TickersToCandles.dir/ucModelTicker.cpp.obj CMakeFiles/TickersToCandles.dir/Generic/uAux.cpp.obj CMakeFiles/TickersToCandles.dir/Base/ucModelBase.cpp.obj CMakeFiles/TickersToCandles.dir/Base/ucModelCad.cpp.obj
+build C$:/TickersToCandles/TickersToCandles.exe: CXX_EXECUTABLE_LINKER__TickersToCandles_Debug CMakeFiles/TickersToCandles.dir/main.cpp.obj CMakeFiles/TickersToCandles.dir/ucCtrlTickersToCandles.cpp.obj CMakeFiles/TickersToCandles.dir/ucModelAsset.cpp.obj CMakeFiles/TickersToCandles.dir/ucModelCandles.cpp.obj CMakeFiles/TickersToCandles.dir/ucModelTicker.cpp.obj | Generic/libGeneric.a Base/libBase.a || Base/libBase.a Generic/libGeneric.a
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = Generic/libGeneric.a  Base/libBase.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TickersToCandles.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -139,11 +126,143 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Dev/c++/JobsC/TickersToCandles/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target Generic
+
+
+#############################################
+# Order-only phony target for Generic
+
+build cmake_object_order_depends_target_Generic: phony || Generic/CMakeFiles/Generic.dir
+
+build Generic/CMakeFiles/Generic.dir/uAux.cpp.obj: CXX_COMPILER__Generic_unscanned_Debug C$:/Dev/c++/JobsC/TickersToCandles/Generic/uAux.cpp || cmake_object_order_depends_target_Generic
+  DEP_FILE = Generic\CMakeFiles\Generic.dir\uAux.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = Generic\CMakeFiles\Generic.dir
+  OBJECT_FILE_DIR = Generic\CMakeFiles\Generic.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target Generic
+
+
+#############################################
+# Link the static library Generic\libGeneric.a
+
+build Generic/libGeneric.a: CXX_STATIC_LIBRARY_LINKER__Generic_Debug Generic/CMakeFiles/Generic.dir/uAux.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = Generic\CMakeFiles\Generic.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Generic\libGeneric.a
+  TARGET_PDB = Generic.a.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build Generic/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Dev\c++\JobsC\TickersToCandles\cmake-build-debug\Generic && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Generic/edit_cache: phony Generic/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Generic/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Dev\c++\JobsC\TickersToCandles\cmake-build-debug\Generic && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Dev\c++\JobsC\TickersToCandles -BC:\Dev\c++\JobsC\TickersToCandles\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Generic/rebuild_cache: phony Generic/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Dev/c++/JobsC/TickersToCandles/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target Base
+
+
+#############################################
+# Order-only phony target for Base
+
+build cmake_object_order_depends_target_Base: phony || Base/CMakeFiles/Base.dir
+
+build Base/CMakeFiles/Base.dir/ucModelBase.cpp.obj: CXX_COMPILER__Base_unscanned_Debug C$:/Dev/c++/JobsC/TickersToCandles/Base/ucModelBase.cpp || cmake_object_order_depends_target_Base
+  DEP_FILE = Base\CMakeFiles\Base.dir\ucModelBase.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = Base\CMakeFiles\Base.dir
+  OBJECT_FILE_DIR = Base\CMakeFiles\Base.dir
+
+build Base/CMakeFiles/Base.dir/ucModelCad.cpp.obj: CXX_COMPILER__Base_unscanned_Debug C$:/Dev/c++/JobsC/TickersToCandles/Base/ucModelCad.cpp || cmake_object_order_depends_target_Base
+  DEP_FILE = Base\CMakeFiles\Base.dir\ucModelCad.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = Base\CMakeFiles\Base.dir
+  OBJECT_FILE_DIR = Base\CMakeFiles\Base.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target Base
+
+
+#############################################
+# Link the static library Base\libBase.a
+
+build Base/libBase.a: CXX_STATIC_LIBRARY_LINKER__Base_Debug Base/CMakeFiles/Base.dir/ucModelBase.cpp.obj Base/CMakeFiles/Base.dir/ucModelCad.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = Base\CMakeFiles\Base.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Base\libBase.a
+  TARGET_PDB = Base.a.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build Base/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Dev\c++\JobsC\TickersToCandles\cmake-build-debug\Base && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Base/edit_cache: phony Base/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Base/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Dev\c++\JobsC\TickersToCandles\cmake-build-debug\Base && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Dev\c++\JobsC\TickersToCandles -BC:\Dev\c++\JobsC\TickersToCandles\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Base/rebuild_cache: phony Base/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build Base: phony Base/libBase.a
+
+build Generic: phony Generic/libGeneric.a
 
 build TickersToCandles: phony C$:/TickersToCandles/TickersToCandles.exe
 
 build TickersToCandles.exe: phony C$:/TickersToCandles/TickersToCandles.exe
+
+build libBase.a: phony Base/libBase.a
+
+build libGeneric.a: phony Generic/libGeneric.a
 
 # =============================================================================
 # Folder targets.
@@ -153,7 +272,21 @@ build TickersToCandles.exe: phony C$:/TickersToCandles/TickersToCandles.exe
 #############################################
 # Folder: C:/Dev/c++/JobsC/TickersToCandles/cmake-build-debug
 
-build all: phony C$:/TickersToCandles/TickersToCandles.exe
+build all: phony C$:/TickersToCandles/TickersToCandles.exe Generic/all Base/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Dev/c++/JobsC/TickersToCandles/cmake-build-debug/Base
+
+build Base/all: phony Base/libBase.a
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Dev/c++/JobsC/TickersToCandles/cmake-build-debug/Generic
+
+build Generic/all: phony Generic/libGeneric.a
 
 # =============================================================================
 # Built-in targets
@@ -162,14 +295,14 @@ build all: phony C$:/TickersToCandles/TickersToCandles.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Dev/c++/JobsC/TickersToCandles/CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Dev/c++/JobsC/TickersToCandles/Base/CMakeLists.txt C$:/Dev/c++/JobsC/TickersToCandles/CMakeLists.txt C$:/Dev/c++/JobsC/TickersToCandles/Generic/CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Dev/c++/JobsC/TickersToCandles/CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
+build C$:/Dev/c++/JobsC/TickersToCandles/Base/CMakeLists.txt C$:/Dev/c++/JobsC/TickersToCandles/CMakeLists.txt C$:/Dev/c++/JobsC/TickersToCandles/Generic/CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################
